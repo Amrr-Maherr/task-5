@@ -1,0 +1,108 @@
+/* تنسيقات عامة */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+#add {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#add:hover {
+    background-color: #45a049;
+}
+
+.list {
+    padding: 20px;
+}
+
+/* تنسيقات لقائمة المهام */
+.todoList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todoList li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيقات لأزرار التعديل والمسح وحالة التمام */
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* أيقونة التعديل */
+.edit-btn {
+    color: #4CAF50;
+}
+
+.edit-btn:hover {
+    color: #388E3C;
+}
+
+/* أيقونة المسح */
+.delete-btn {
+    color: #F44336;
+}
+
+.delete-btn:hover {
+    color: #D32F2F;
+}
+
+/* أيقونة حالة التمام */
+.complete-btn {
+    color: #2196F3;
+}
+
+.complete-btn:hover {
+    color: #1976D2;
+}
+
+/* تنسيق للأيقونات داخل الأزرار */
+button i {
+    font-size: 18px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    background-color: green;
+}
